@@ -1,0 +1,8 @@
+.text-block{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: black;
+    color: red;
+    
+}
