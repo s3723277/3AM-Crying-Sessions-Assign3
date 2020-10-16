@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style src="a3.css"></style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FF5757;">
+        <a class="navbar-brand" href="index.php"><img src="assets/BLS_LOGO.PNG" style="width:50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Facebook
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="facebook_make_post.html">Making a post</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="facebook_check_notif.html">Checking Notifications</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="facebook_messaging.html">Messaging Friends</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="facebook_addfriend.html">Add Friend</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Outlook
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Composing Emails</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Filtering Emails</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Spam Emails</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        WhatsApp
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="whatsapp_making_a_status.html">View status page</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="whatsapp_calling.html">Access calls</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="whatsapp_messaging.html">How to chat</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="whatsapp_settings.html">Your settings</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Google Maps
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Seach for destination</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">change map type</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Where am i currently? </a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Centrelink
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="centrelink_profile.html">View profile</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="centrelink_inbox.html">Your inbox</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="centrelink_dashboard.html">Your dashboard </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="centrelink_assistant.html">Your virtual assistant </a>
+                    </div>
+                </li>
+
+    </nav>
+    <title> Boomer Life Support </title>
+</head>
+
+ <body>
+  
+   <div class="grid-container">
+    <div class="logo">
+     <a href="index.html">
+      <div class="logo-container">
+       <img src = "img/logo.jpg" style=width:290px;>
+      </div>
+     </a>
+    </div>
+    <div class="menu">
+     <h1 style="color: #ffffff; text-align: center; border:0px;">Boomer Life Support</h1>
+     <div class="links-container">
+      <a href="timetable.html" class="button">Timetable</a>
+      <a href="tools.html" class="active">Tools and Architecture</a>
+      <a href="prototype.html" class="button">Prototype</a>
+      <a href="estimation.html" class="button">Estimation Plan</a>
+      <a href="index.html" class="button">Home</a>
+      
+     </div>
+    </div>
+    <div class="content">
+      <div class="desc">
+        <h1>TECHNOLOGIES AND ARCHITECTURE </h1>
+        <h2>Collaborative workspaces</h2>
+        <h3 class="tools">Microsoft Teams <br> (<a href ="https://teams.microsoft.com/l/channel/19%3a9ea252a98944440bb23bcb94c1716c06%40thread.tacv2/General?groupId=6a886672-400a-446a-8353-143c12077961&tenantId=d1323671-cdbe-4417-b4d4-bdb24b51316b" target=_blank> Link </a> ) </h3>
+    <p>Microsoft Teams is a software in which people are able to communicate to each other through channels, through video calling, voice call or even through text/chat.  
+       <br>
+       <br>
+        We decided to use this tool since there is a built in record feature and it’s more secure. We are using the current version of teams for free. </p>  
+        <h3 class="tools">Trello <br> (<a href ="https://trello.com/b/3z8X02p1" target=_blank> Link </a> ) </h3>
+        <p>Trello is a free tool for collaboration and organization of projects and helps users to keep data on boards. It helps with users to tell who is working on what part of the project and what is in progress.  
+<br>
+<br>
+            We use Trello to organize our project and share any important links that might be useful for our research. Trello has useful features such as checklists and labelling so each member knows what they’re working on, and figure out how long they have till the due date of each part of the project. </p>
+            <h3 class="tools">GitHub <br> (<a href ="https://github.com/Melanie-Lok/3AM-Crying-Sessions" target=_blank> Link </a> ) </h3>
+            <p>Github is a free tools tool that helps with the version control of our website’s development. This ensures that we are up-to-date with all our progress, and gives us a back-up of our previous versions in case we run into any issues through our development. 
+<br>
+<br>
+                Our group decided to use Github because we were introduced to it in our intro to IT class so we are aware of its features, and we are able to use it without having any issues. Most developers also use github so it is easy to troubleshoot any problems that we might face. </p>
+                <h3 class="tools">AWS  (Amazon Web Services) <br> (<a href="https://aws.amazon.com/"> Link </a> ) </h3>
+                <p>AWS(Amazon Web Services) is a secure cloud platform where the users can store databases and host websites. It also offers compute power. 
+<br>
+<br>
+                    We will use the latest AWS version because RMIT provided us with it for free and we also used it last semester so we know how to handle it.(write more later can't think anything else) </p>
+                    <h3 class="tools">Google Docs <br> (<a href ="https://docs.google.com/document/d/1M6z4rxA1-ygBL7oHkDkfnElnYfD3yw-sSj-rcwiJDM4/edit" target=_blank> Link </a> ) </h3>
+                    <p>Google Docs is a free tool that also helps the users organize their documents for a project and edit a document at the same time. They can produce many things like spreadsheets, surveys and slide presentations. 
+<br>
+<br>
+                      We decided to use google docs because we have used it in many assignments before and by now we know how to use it and its features, and also because it is very easy and very simple. We can work on something all together at the same time and make edits without affecting someone else’s work. </p>
+                    <h3 class="tools">Google Sheets <br> (<a href ="https://docs.google.com/spreadsheets/d/1ICg6NZZE9kWygKP4TbVyk0f7gCAZ3-GPklJrfls7cc4/edit#gid=1115838130" target=_blank> Link </a> ) </h3>
+                    <p>Google Sheets is a spreadsheet program, in which you can collaborate with other users in creating spreadsheets, through your computer or even your mobile phone.  
+<br>
+<br>
+                      We will use Google Sheets for our Gantt chart, to keep track of our weekly progress, and the percentage of the tasks required for the submission of the project.  </p>
+                  <h3 class="tools"> Discord <br> (<a href= "https://discord.com/new" target=_blank> Link </a>) </h3>
+                  <p>Discord is a free app that was firstly created for gamers and one person would host a server and people could join and all communicate at the same time. Nowadays discord is used not only for gaming but for other many reasons as well, for example creating a project with a team. 
+<br>
+<br>
+                    We use discord because as a team we think it is very easy to use and since everyone used it before hand we always have it opened and check messages/updates daily. Discord has a feature where you can add bots in servers and they can do multiple things. For example remind you for specific dates, record meetings, or even play music. 
+                    </p>
+                  <h2>Software</h2> 
+                  <h3 class="tools">Eclipse IDE <br> (<a href= " https://www.eclipse.org/eclipseide/" target=_blank> Link</a>) </h3>
+                  <p>Eclipse IDE is a free open-source software that would be useful in coding in Java. There is also an extension “marketplace” in which users may find useful plugins that may better their experience. It also has an error detection system in which the program would indicate visible errors, and stop the program from running. 
+<br>
+<br>
+                    We decided to use this software because most of us have either taken the classes Intro to Programming or Programming 1, meaning we have basic java knowledge. It is also easier to code mobile applications in Java rather than any other languages. </p>
+                    <h2>Tools</h2>
+                    <h3 class="tools">Visual Studio Code <br> (<a href="https://code.visualstudio.com/%22%3Ehttps://code.visualstudio.com/" target=_blank> Link </a>) </h3>
+                    <p>Visual Studio Code is a free source-code editor created by microsoft, with features such as a marketplace, embedded gits and autocompletion of a piece of code.
+<br>
+<br>
+<p>We decided to use Visual Studio Code because we all have used it before in previous subjects and we are experienced with its features. It is accessible by most operating system (Windows, Linux, and MacOS) which ensures that all of our members are able to access it without having to worry about the compatibility of their devices. The marketplace also gave us an advantage, especially with the online server and HTML preview, making it easier to edit our HTML files. We downloaded the latest version and the tool itself is free.</p>
+<h3 class="tools">Figma <br> (<a href="https://www.figma.com/%22%3Ehttps://www.figma.com" target=_blank> Link </a>)</h3> 
+<p>Figma is a software/website focusing on vector graphics editing, and mostly for prototyping websites/apps due to it being able to setup interactivity for elements such as buttons to give life to the prototype.</p>
+<br>
+<br>
+<p>Figma heavily influenced the efficiency of our diagrams and prototype, as it is easy to organize elements such as shapes and letters as you can name the elements to their corresponding type. Similarly, Figma allows us to collaborate within prototypes in real time, combined with MS Teams or Discord, we are able to collaborate in real time and figure out if there are any conflicts with the ideas of each member.</p>
+       <h2>System Context Diagram</h2>
+         <img src="img/SCD.png" style=width:100%; alt="System Context Diagram">
+      
+</div>
+    </div>
+    <div class="card" style="background-color:#FF5757;">
+        <div class="card-body">
+            <h5 class="card-title">Boomer Life Support</h5>
+            <p class="card-text">Footer</p>
+        </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
