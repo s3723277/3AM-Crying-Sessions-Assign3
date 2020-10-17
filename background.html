@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style src="a3.css"></style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FF5757;">
+        <a class="navbar-brand" href="index.php"><img src="assets/BLS_LOGO.PNG" style="width:50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="background.html">Project Background</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="progress.html">Project Progress</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="tools.html">Project Tools</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="challenges.html">Challenges and Learning</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="processes.html">Project Processes</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="futureDev.html">Future Development</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Facebook
+                          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="facebook_make_post.html">Making a post</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="facebook_messaging.html">Messaging friends</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="facebook_addfriend.html">Adding friends</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="facebook_check_notif.html">Checking Notifications</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Outlook
+                          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="outlook_newemail.html">Composing Emails</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="outlook_filter.html">Filtering Emails</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="outlook_calendar.html">Calendar</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            WhatsApp
+                          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="whatsapp_making_a_status.html">View status page</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="whatsapp_calling.html">Access calls</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="whatsapp_messaging.html">How to chat</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="whatsapp_settings.html">Settings</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Google Maps
+                          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="maps_search.html">Search for destination</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="maps_maptype.html">Change map type</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="maps_locate_self.html">Where am I currently?</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="maps_endpoint.html">Endpoint/commute</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="maps_saved.html">Saved</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="maps_commute.html">Commute</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="maps_contribute.html">Contribute</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Centrelink
+                          </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="centrelink_profile.html">View profile</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="centrelink_inbox.html">Your inbox</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="centrelink_dashboard.html">Your dashboard </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="centrelink_assistant.html">Your virtual assistant </a>
+                    </div>
+                </li>
+
+    </nav>
+    <title>Boomer Life Support</title>
+</head>
+
+<body>
+    <h1>Project Background</h1>
+    <p>
+        Our website is designed to assist and teach individuals who are technologically inept. Our website is aimed at the elderly demographic, but can also be extended to those who are not familiar with the way the apps on their phones work. The website is designed
+        to teach individuals the basic steps and usage of 5 mobile apps we have deemed important to know in this modern day and age. Those 5 apps are; Facebook, WhatsApp, Outlook, Centrelink services and Google Maps. Our website breaks down the basic
+        process of these apps such as; making a facebook post, calling loved ones on WhatsApp, sending emails on outlook, filling out information on Centrelink and finding destinations for Google Maps, to name a few.
+    </p>
+
+    <h3>Motivation</h3>
+    <p>
+        Our project idea was initially thought of and suggested by Hoang and Mitchell. Both Hoang and Mitchell work in retail selling technology gadgets and gizmos, including phones and computers. Hoang and Mitchell often have elderly customers come in from the
+        street and ask them how to use their devices. Elderly people constantly come in everyday seeking help and assistance on how they can send emails, message individuals, change settings etc etc. This website allows a more direct line of communication
+        and learning for the individuals who need assistance and teaching to use the apps on their phones.
+        <br><br> As this website is designed to teach elderly individuals how to use these apps, our team was also especially motivated to develop it as all members in the group have one time or another, have had to assist loved ones and family members
+        who didn't know how to use apps on their phones and will likely continue to keep helping and assisting these family members with their devices.
+        <br><br> The repetition of continually assisting elderly individuals with their mobile devices and apps is a major motivation for our group in developing this website.
+    </p>
+
+    <h3>Aims and Goals</h3>
+    <p>Our aim is to outline and teach the basic steps of using Facebook, WhatsApp, Outlook, Centrelink and Google Maps to our targeted demographic of elderly individuals.
+        <br><br> Our Goals for Facebook are to outline the steps in the processes of; Making a Facebook post, messaging friends, adding friends and checking notifications. These goals are things we have deemed the essential basics of using and navigating
+        Facebook. The goals we’ve outlined serve the basic function and the social interactions and purpose of Facebook
+        <br><br> Our goals for Outlook are to outline the steps in the processes of; composing emails, filtering emails and dealing with spam emails. These goals are put in place as we believe it’s essential individuals know how to compose and filter
+        emails, in order to be able to email others and read emails and also deal with spam emails to understand that not all emails are safe.
+        <br><br> Our goals for WhatsApp is to teach individuals how to access their calls, chat to others and view their status page. These goals to teach these aspects are the basic steps and purpose of WhatsApp in being able to communicate to others
+        via calls and messaging and our goal is to teach these steps.
+        <br><br> Our goals for Centrelink is to teach individuals how to view their profiles, their inbox, their dashboard and their virtual assistant. Centrelink is important and these goals are important everyone has to interact with the Government
+        and centrelink, namely our targeted demographic of elderly people who would likely receive Government funding and assistance. By teaching them these steps, they can more easily and effectively access their centrelink profiles and information.
+        <br><br> Our goal for Google Maps is to teach individuals how to use and navigate themselves around town. Elderly people are often forgetful and can sometimes forget the ways/directions to destinations. With the phasing out of Melways as well,
+        a form of navigation that most elderly Victorians would be familiar with- our website aims to bridge the gap between technological understanding from the expensive and harder to access melways, to Google maps. Our website aims to teach individuals
+        how to search for destinations, change map types and figure out where they currently are.
+        <br><br> With the COVID-19 pandemic currently affecting the whole globe changes have been made all around the world. Namely, at the time of writing, Victorians are currently being forced to rely on the internet and technology in place of services
+        that would usually be otherwise face to face. Our website is perfect for elderly individuals who are perhaps self isolating due to restrictions and can’t ask their loved ones for assistance in using technology. By teaching WhatsApp, Facebook and
+        Outlook, the elderly can still have the capacity to socially interact with others. By teaching Centrelink, they can access and claim Government benefits and funding- JobSeeker and JobKeeper of which were implemented and drastically changed at
+        the start of the pandemic.
+    </p>
+
+    <h3>Scope</h3>
+    <p>The scope of our project was initially supposed to be a mobile app, but given the ineptness of our groups ability to develop an app, we decided to instead develop our project as a website. This provided us with similar outcomes of step by step information
+        and teaching of how to do specific tasks in our aimed apps of Facebook, WhatsApp, Google Maps, Outlook and Centrelink. Our prototype at the moment delivers the information we wished to provide for our users, however, the initial goal was for it
+        to be an overlay, which would have probably been impossible given our time and limits as we would not have been able to interact with the head developers of Facebook/WhatsApp/Google Maps/ Centrelink/ Outlook. However our website consists of screenshots
+        of those apps and we still provide an overlay of captions on the screenshots. The basic goals and aims of our project as outlined in Assignments 1 and 2 were to teach individuals the basics surrounding the apps and we still have effectively provided
+        that information in our end product given the time restraints.
+
+        <br><br> In a perfect world, we would continually develop and add more information about how to use and do more processes and features behind our focussed apps. However, given the timeframe we were given, we were only able to focus on a small
+        portion of the features of the focussed apps.
+    </p>
+
+
+    <!--FOOTER-->
+    <div class="card" style="background-color:#FF5757;">
+        <div class="card-body">
+            <h5 class="card-title">Boomer Life Support</h5>
+            <p class="card-text">3AM Crying Sessions, Building IT Systems</p>
+            <p class="card-text"> 2020 Copyright </p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
