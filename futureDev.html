@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style src="a3.css"></style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FF5757;">
+            <a class="navbar-brand" href="index.php"><img src="assets/BLS_LOGO.PNG" style="width:50px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                      </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="background.html">Project Background</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="progress.html">Project Progress</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="tools.html">Project Tools</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="challenges.html">Challenges and Learning</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="processes.html">Project Processes</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="futureDev.html">Future Development</a>
+                                      <div class="dropdown-divider"></div>
+                                  </div>
+                              </li>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Facebook
+                          </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" href="facebook_make_post.html">Making a post</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="facebook_messaging.html">Messaging friends</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="facebook_addfriend.html">Adding friends</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="facebook_check_notif.html">Checking Notifications</a>
+                                      </div>
+                                  </li>
+                  
+                                  <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Outlook
+                          </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" href="outlook_newemail.html">Composing Emails</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="outlook_filter.html">Filtering Emails</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="outlook_calendar.html">Calendar</a>
+                                      </div>
+                                  </li>
+                  
+                                  <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            WhatsApp
+                          </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" href="whatsapp_making_a_status.html">View status page</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="whatsapp_calling.html">Access calls</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="whatsapp_messaging.html">How to chat</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="whatsapp_settings.html">Settings</a>
+                                      </div>
+                                  </li>
+                  
+                                  <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Google Maps
+                          </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" href="maps_search.html">Search for destination</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="maps_maptype.html">Change map type</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="maps_locate_self.html">Where am I currently?</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="maps_endpoint.html">Endpoint/commute</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="maps_saved.html">Saved</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="maps_commute.html">Commute</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="maps_contribute.html">Contribute</a>
+                                      </div>
+                                  </li>
+                  
+                                  <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Centrelink
+                          </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" href="centrelink_profile.html">View profile</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="centrelink_inbox.html">Your inbox</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="centrelink_dashboard.html">Your dashboard </a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item" href="centrelink_assistant.html">Your virtual assistant </a>
+                                      </div>
+                    </li>
+    
+        </nav>
+    <title> Boomer Life Support </title>
+</head>
+
+ <body>
+  
+   <div class="grid-container">
+
+    <h1>Challenges and Learning</h1>
+      <br>
+      <h2>UI Developer:</h2>
+      <p>As we are only first year IT students, we are still learning basic coding languages and unable to create our own mobile application from scratch. With the help of a UI developer, they can help us translate our design concepts and ideas into reality using front end technology. Additionally, their choice in software interfaces should also prioritise our app users and business requirements over technology limitations and constraints which will be extremely beneficial when it comes to dividing costs for our project. </p>
+      <br>
+      <h2>UI designer:</h2>
+      <p> A UI designer is responsible for the designing aspect of the app. Not only do they ensure that the app has pleasing aesthetics, but also makes sure that the app corresponds to usability principles, giving users the most enjoyability when using the app. </p>
+      <br>
+      <h2>Software engineer:</h2>
+      <p>Crucial members to our development team as they apply engineering principles to every stage of our mobile application development process, including analysis to the software process and creating a personalised systems for the team on our unique project idea.</p>
+      <br>
+      <h2>Usability researcher:</h2>
+      <p> A usability researcher ensures that the app is to standard with user testing. They hold surveys, test, and gather information about the good and bad about the application. Using this information, they are able to improve the app.</p>
+      <br>
+     
+      <div class="card" style="background-color:#FF5757;">
+        <div class="card-body">
+            <h5 class="card-title">Boomer Life Support</h5>
+            <p class="card-text">3AM Crying Sessions, Building IT Systems</p>
+            <p class="card-text"> 2020 Copyright </p>
+        </div>
+    </div>
+  
+  </div>
+ </body>
+</html>
